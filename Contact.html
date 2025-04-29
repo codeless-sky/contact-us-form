@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="Contact.css">
+
+</head>
+
+<body>
+    <section id="contact">
+        <div class="about-content">
+            <h2 class="section-title">Get In Touch</h2>
+
+            <div class="contact-container">
+
+                <!-- Schematic Image Column -->
+                <div class="schematic-column">
+                    <img src="Get in touch-amico.png" alt="Schematic Diagram" class="schematic-image">
+                </div>
+
+                <!-- Form Column -->
+                <div class="form-column">
+
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="Name" placeholder="Your Name" required>
+                            <span class="focus-border"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="Email" placeholder="Your Email" required>
+                            <span class="focus-border"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="Subject" placeholder="Subject">
+                            <span class="focus-border"></span>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="Message" placeholder="Your Message"
+                                required></textarea>
+                            <span class="focus-border"></span>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
